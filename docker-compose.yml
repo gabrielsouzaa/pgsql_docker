@@ -5,6 +5,9 @@ services:
 
     image: postgres:9.6.7
 
+    volumes:
+      - /var/lib/postgresql/data
+
     ports:
       - 5432:5432
 
